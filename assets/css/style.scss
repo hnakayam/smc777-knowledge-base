@@ -23,3 +23,10 @@
   margin-bottom: 8px;
   border-bottom: 1px solid #a2a9b1;
 }
+
+/* Thumbnail images in tables */
+table img {
+  width: 160px;
+  height: auto;
+  display: block;
+}
