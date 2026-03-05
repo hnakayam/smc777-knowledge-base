@@ -1,0 +1,25 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Wikipedia-style TOC box */
+#markdown-toc {
+  display: inline-block;
+  background-color: #f8f9fa;
+  border: 1px solid #a2a9b1;
+  padding: 10px 30px 10px 10px;
+  font-size: 0.9em;
+  margin: 0 0 1.5em 0;
+  min-width: 180px;
+}
+
+#markdown-toc::before {
+  content: "目次";
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #a2a9b1;
+}
